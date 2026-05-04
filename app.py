@@ -4,10 +4,10 @@ import numpy as np
 import joblib
 
 # Load models
-classifier       = joblib.load("notebooks\models/classifier.pkl")
-anomaly_detector = joblib.load("notebooks\models/anomaly_detector.pkl")
-scaler           = joblib.load("notebooks\models/scaler.pkl")
-feature_names    = joblib.load("notebooks\models/feature_names.pkl")
+classifier       = joblib.load("notebooks/models/classifier.pkl")
+anomaly_detector = joblib.load("notebooks/models/anomaly_detector.pkl")
+scaler           = joblib.load("notebooks/models/scaler.pkl")
+feature_names    = joblib.load("notebooks/models/feature_names.pkl")
 
 # App title
 st.title("🛡️ Smart API Protection")
